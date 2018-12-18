@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="CSS Comment - Header Section" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[/* --------------------------------------------------
+section : yadda
+-------------------------------------------------- */]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

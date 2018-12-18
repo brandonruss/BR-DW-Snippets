@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Responsys Don't Compress Images" description=""><insertText location="beforeSelection"><![CDATA[?imbypass=true]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

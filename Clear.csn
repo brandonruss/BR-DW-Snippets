@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Clear" description=""><insertText location="beforeSelection"><![CDATA[<!-- ************************************************** on : CLEAR! ************************************************** -->
+<p class="hide-mobile" style="clear: both; font-size: 0px; line-height: 0px; margin: 0;"></p>
+<!-- ************************************************** off : CLEAR! ************************************************** -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

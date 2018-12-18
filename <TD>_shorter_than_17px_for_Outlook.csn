@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="<TD> shorter than 17px for Outlook" description=""><insertText location="beforeSelection"><![CDATA[<td height="1" style="font-size: 0px; line-height: 0px;">&nbsp;</td>]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

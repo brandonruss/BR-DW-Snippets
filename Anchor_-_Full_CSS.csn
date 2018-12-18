@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Anchor - Full CSS" description=""><insertText location="beforeSelection"><![CDATA[<a href="#" target="_blank" style="color: #000000; cursor: pointer;"><strong style="color: #000000; font-weight: normal;"></strong></a>]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
