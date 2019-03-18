@@ -1,1 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="RPL Comment" description=""><insertText location="beforeSelection"><![CDATA[<#--  -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="RPL Comment" description=""><insertText location="beforeSelection"><![CDATA[<#-- *----- comment_text -----* -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
