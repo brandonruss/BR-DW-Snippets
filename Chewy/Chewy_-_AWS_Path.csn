@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - AWS Path" description=""><insertText location="beforeSelection"><![CDATA[https://chirp.media.chewy.cloud/email/promo/2019/]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
