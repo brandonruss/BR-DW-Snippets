@@ -1,1 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Sup" description="" preview="code" type="wrap"><insertText location="beforeSelection"><![CDATA[<sup style="font-size: 10px; line-height: 0; vertical-align: 7px;">&reg;</sup>]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
