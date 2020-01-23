@@ -1,1 +1,67 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Deals - Solo" description=""><insertText location="beforeSelection"><![CDATA[<!-- Deal-Top --><span style="display: none;">	<#assign DealTopLink = "#"></span><!-- on nest 2 : deals headline --><table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;"><tr>	<td>	<a href="${clickthrough('top_hero_0_0_0','top_hero_0_0_0URL='+HeroLink)}" target="_blank"><img src="yadda" width="600" alt="Featured Deals" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>	</td></tr></table><!-- off nest 2 : deals headline --><!-- on nest : deal top banner --><table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;"><tr>	<td>	<a href="${clickthrough('body_featuredDealTop_0_0_0','body_featuredDealTop_0_0_0URL='+DealTopLink)}" target="_blank"><img src="yadda" width="600" alt="yadda | Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>	</td></tr><tr>	<td align="center">		<!-- on nest 3 : rule table -->	<table align="center" border="0" cellpadding="0" cellspacing="0" width="85%">	<tr><td height="1" style="border-top: 1px solid #dddddd; font-size: 1px; line-height: 1px;">&nbsp;</td></tr>	</table>	<!-- off nest 3 : rule table -->		</td></tr></table><!-- off nest : deal top banner --><!-- Deal-Bottom --><span style="display: none;">	<#assign DealBottomLink = "#"></span><!-- on nest : deal bottom banner --><table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;"><tr>	<td align="center">		<!-- on nest 3 : rule table -->	<table align="center" border="0" cellpadding="0" cellspacing="0" width="85%">	<tr><td height="1" style="border-top: 1px solid #dddddd; font-size: 1px; line-height: 1px;">&nbsp;</td></tr>	</table>	<!-- off nest 3 : rule table -->		</td></tr><tr>	<td>	<a href="${clickthrough('body_featuredDealBottom_0_0_0','body_featuredDealBottom_0_0_0URL='+DealBottomLink)}" target="_blank"><img src="yadda" width="600" alt="yadda | Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>	</td></tr></table><!-- off nest : deal bottom banner -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Deals - Solo" description=""><insertText location="beforeSelection"><![CDATA[<!-- Deal-Top -->
+
+<span style="display: none;">
+
+	<#assign DealTopLink = "#">
+
+</span>
+
+<!-- on nest deals headline -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">
+<tr>
+	<td>
+	<a href="${clickthrough('top_hero_0_0_0','top_hero_0_0_0URL='+HeroLink)}" target="_blank"><img src="yadda" width="600" alt="Featured Deals" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
+	</td>
+</tr>
+</table>
+<!-- off nes: deals headline -->
+
+<!-- on nest : deal top banner -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">
+<tr>
+	<td>
+	<a href="${clickthrough('body_featuredDealTop_0_0_0','body_featuredDealTop_0_0_0URL='+DealTopLink)}" target="_blank"><img src="yadda" width="600" alt="yadda | Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
+	</td>
+</tr>
+<tr>
+	<td align="center">
+	
+	<!-- on nest : rule -->
+	<table align="center" border="0" cellpadding="0" cellspacing="0" width="85%">
+	<tr><td height="1" style="border-top: 1px solid #dddddd; font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+	</table>
+	<!-- off nest : rule -->
+	
+	</td>
+</tr>
+</table>
+<!-- off nest : deal top banner -->
+
+<!-- Deal-Bottom -->
+
+<span style="display: none;">
+
+	<#assign DealBottomLink = "#">
+
+</span>
+
+<!-- on nest : deal bottom banner -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">
+<tr>
+	<td align="center">
+	
+	<!-- on nest : rule -->
+	<table align="center" border="0" cellpadding="0" cellspacing="0" width="85%">
+	<tr><td height="1" style="border-top: 1px solid #dddddd; font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+	</table>
+	<!-- off nest : rule -->
+	
+	</td>
+</tr>
+<tr>
+	<td>
+	<a href="${clickthrough('body_featuredDealBottom_0_0_0','body_featuredDealBottom_0_0_0URL='+DealBottomLink)}" target="_blank"><img src="yadda" width="600" alt="yadda | Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
+	</td>
+</tr>
+</table>
+<!-- off nest : deal bottom banner -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
