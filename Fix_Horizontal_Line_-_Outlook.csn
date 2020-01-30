@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Fix Horizontal Line - Outlook" description=""><insertText location="beforeSelection"><![CDATA[<div style="font-size: 1px; line-height: 1px;">&nbsp;</div>]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
