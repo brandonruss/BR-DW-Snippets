@@ -1,1 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Hero - Solo" description=""><insertText location="beforeSelection"><![CDATA[<!-- Hero-yadda --><span style="display: none;">		<#assign HeroLink = "#"></span><!-- on nest : hero --><table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;"><tr>	<td>	<a href="${clickthrough('top_hero_0_0_0','top_hero_0_0_0URL='+HeroLink)}" target="_blank"><img src="yadda" width="600" alt="Chewy - yadda | Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>	</td></tr></table><!-- off nest : hero -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Hero - Solo" description="" type="block"><insertText location="beforeSelection"><![CDATA[<!-- Hero-yadda -->
+
+<span style="display: none;">
+	
+	<#assign HeroLink = "#">
+	<#assign HeroTag = "0">
+
+</span>
+
+<!-- on nest : hero -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">
+<tr>
+	<td>
+	<a href="${clickthrough('top_hero_0_0_0','top_hero_0_0_0URL='+HeroLink,'ga_utm_term=top_hero_0_0_${HeroTag}')}" target="_blank"><img src="yadda" width="600" alt="Chewy - yadda | Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
+	</td>
+</tr>
+</table>
+<!-- off nest : hero -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

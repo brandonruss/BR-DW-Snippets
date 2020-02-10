@@ -1,8 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Deals - Solo" description=""><insertText location="beforeSelection"><![CDATA[<!-- Deal-Top -->
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Deals - Solo" description="" type="block"><insertText location="beforeSelection"><![CDATA[<!-- Deal-Top -->
 
 <span style="display: none;">
 
 	<#assign DealTopLink = "#">
+	<#assign DealTopTag = "0">
 
 </span>
 
@@ -10,7 +11,7 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">
 <tr>
 	<td>
-	<a href="${clickthrough('top_hero_0_0_0','top_hero_0_0_0URL='+HeroLink)}" target="_blank"><img src="yadda" width="600" alt="Featured Deals" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
+	<a href="${clickthrough('top_hero_0_0_0','top_hero_0_0_0URL='+HeroLink,'ga_utm_term=top_hero_0_0_${HeroTag}')}" target="_blank"><img src="yadda" width="600" alt="Featured Deals" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
 	</td>
 </tr>
 </table>
@@ -20,7 +21,7 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">
 <tr>
 	<td>
-	<a href="${clickthrough('body_featuredDealTop_0_0_0','body_featuredDealTop_0_0_0URL='+DealTopLink)}" target="_blank"><img src="yadda" width="600" alt="yadda | Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
+	<a href="${clickthrough('body_featuredDealTop_0_0_0','body_featuredDealTop_0_0_0URL='+DealTopLink,'ga_utm_term=body_featuredDealTop_0_0_${DealTopTag}')}" target="_blank"><img src="yadda" width="600" alt="yadda | Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
 	</td>
 </tr>
 <tr>
@@ -42,6 +43,7 @@
 <span style="display: none;">
 
 	<#assign DealBottomLink = "#">
+	<#assign DealBottomTag = "0">
 
 </span>
 
@@ -60,7 +62,7 @@
 </tr>
 <tr>
 	<td>
-	<a href="${clickthrough('body_featuredDealBottom_0_0_0','body_featuredDealBottom_0_0_0URL='+DealBottomLink)}" target="_blank"><img src="yadda" width="600" alt="yadda | Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
+	<a href="${clickthrough('body_featuredDealBottom_0_0_0','body_featuredDealBottom_0_0_0URL='+DealBottomLink,'ga_utm_term=body_featuredDealBottom_0_0_${DealBottomTag}')}" target="_blank"><img src="yadda" width="600" alt="yadda | Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
 	</td>
 </tr>
 </table>
