@@ -3,7 +3,7 @@
 <span style="display: none;">
 
 	<#assign StripBannerLink = "#">
-	<#assign StripBannerTag = "#">
+	<#assign StripBannerTag = "0">
 
 </span>
 
