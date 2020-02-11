@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Hero" description="" type="block"><insertText location="beforeSelection"><![CDATA[<#assign HeroLink = "#">
-<#assign HeroTag = "0">
+		<#assign HeroTag = "0">
 
 		<!-- on nest : hero -->
 		<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">
