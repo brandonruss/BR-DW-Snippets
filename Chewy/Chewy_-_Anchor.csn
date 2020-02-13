@@ -1,1 +1,3 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Anchor" description=""><insertText location="beforeSelection"><![CDATA[<a href="#" target="_blank" style="color: #000000; text-decoration: none;"></a>]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Anchor" description="" type="block"><insertText location="beforeSelection"><![CDATA[<#assign YaddaLink = "#">
+<#assign YaddaTag = "0">
+<a href="${clickthrough('top_yadda_0_0_0','top_yadda_0_0_0URL='+YaddaLink,'ga_utm_term=top_yadda_0_0_${YaddaTag}')}" target="_blank" style="color: #000000; text-decoration: none;"></a>]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
