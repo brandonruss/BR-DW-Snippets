@@ -27,7 +27,7 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">
 <tr>
 	<td>
-	<a href="${clickthrough('body_stripbanner_0_0_0','body_stripbanner_0_0_0URL='+StripBannerLink,'ga_utm_term=body_stripbanner_0_0_${StripBannerTag}')}" target="_blank"><img src="http://placehold.jp/80/cccccc/ffffff/600x150.png?text=SB - FPO" width="600" alt="Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
+	<a href="${clickthrough('body_stripbanner_0_0_0','body_stripbanner_0_0_0URL='+StripBannerLink,'ga_utm_term=body_stripbanner_0_0_${StripBannerTag}')}" target="_blank"><img src="yadda" alt="yadda | Shop Now" border="0" class="scale" style="display: block; font-size: 12px; height: auto; line-height: 100%; margin: 0px; text-align: left;" /></a>
 	</td>
 </tr>
 </table>
