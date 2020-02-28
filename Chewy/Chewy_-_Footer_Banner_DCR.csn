@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Footer Banner DCR" description=""><insertText location="beforeSelection"><![CDATA[<!-- on nest : footer banner container -->
-		<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Footer Banner DCR" description="" type="block"><insertText location="beforeSelection"><![CDATA[<!-- on nest : footer banner container -->
+		<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">
 		<tr>
 			<td data-content-region-name="Footer_Banner"></td>
 		</tr>

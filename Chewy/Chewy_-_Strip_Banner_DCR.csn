@@ -1,1 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Strip Banner DCR" description="" type="block"><insertText location="beforeSelection"><![CDATA[<!-- on nest : strip banner container -->		<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">		<tr>			<td data-content-region-name="Strip_Banner"></td>		</tr>		</table>		<!-- off nest : strip banner container -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Strip Banner DCR" description="" type="block"><insertText location="beforeSelection"><![CDATA[<!-- on nest : strip banner container -->
+		<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" class="scale" style="min-width: 600px; width: 600px;">
+		<tr>
+			<td data-content-region-name="Strip_Banner"></td>
+		</tr>
+		</table>
+		<!-- off nest : strip banner container -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
