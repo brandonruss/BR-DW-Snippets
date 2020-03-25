@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Deals - Solo" description="" type="block"><insertText location="beforeSelection"><![CDATA[<!-- Deal-1 -->
-
-<span style="display: none;">
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Deals - Solo" description="" type="block"><insertText location="beforeSelection"><![CDATA[<span style="display: none;">
 
 	<#assign Deal1Link = "#">
 	<#assign Deal1Tag = "0">
@@ -37,8 +35,6 @@
 </tr>
 </table>
 <!-- off nest : deal one banner -->
-
-<!-- Deal-2 -->
 
 <span style="display: none;">
 
