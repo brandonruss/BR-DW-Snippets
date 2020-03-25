@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Strip Banner - Solo" description="" type="block"><insertText location="beforeSelection"><![CDATA[<!-- SB-yadda -->
-
-<span style="display: none;">
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Strip Banner - Solo" description="" type="block"><insertText location="beforeSelection"><![CDATA[<span style="display: none;">
 
 	<#assign StripBannerLink = "#">
 	<#assign StripBannerTag = "0">
