@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Footer Banner - Solo" description="" type="block"><insertText location="beforeSelection"><![CDATA[<!-- FB-yadda -->
-
-<span style="display: none;">
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Footer Banner - Solo" description="" type="block"><insertText location="beforeSelection"><![CDATA[<span style="display: none;">
 
 	<#assign BannerLink = "#">
 	<#assign BannerTag = "0">
