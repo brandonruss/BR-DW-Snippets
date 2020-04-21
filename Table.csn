@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Table" description="" type="block"><insertText location="beforeSelection"><![CDATA[<!-- on : YADDA -->
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Table" description="" type="block"><insertText location="beforeSelection"><![CDATA[<!-- on : yadda -->
 <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600" class="columns-one" style="width: 600px;">
 <tr>
 	<td></td>
 </tr>
 </table>
-<!-- off : YADDA -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
+<!-- off : yadda -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
