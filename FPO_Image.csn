@@ -1,1 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="FPO Image" description=""><insertText location="beforeSelection"><![CDATA[http://placehold.jp/80/cccccc/ffffff/600x300.png?text=FPO]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="FPO Image" description="" type="block"><insertText location="beforeSelection"><![CDATA[http://placehold.jp/80/e5e5e5/ffffff/600x300.png?text=FPO]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
