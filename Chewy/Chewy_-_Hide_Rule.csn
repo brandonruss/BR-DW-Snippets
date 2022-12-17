@@ -1,15 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Chewy - Hide Rule" description="" type="wrap"><insertText location="beforeSelection"><![CDATA[Place in Dynup:
-
-<#-- ***** do you want the borders to display? (Y/N) ***** -->
-<#assign border_top = "Y">
-<#if hide_rule == "Y">
-	<#assign border_top = "N">
-</#if>
-
-
-----------
-
-
-Place in DCR:
-
-<#assign hide_rule = "Y">]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

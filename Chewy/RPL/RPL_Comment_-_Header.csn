@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="RPL Comment - Header" description="" type="block"><insertText location="beforeSelection"><![CDATA[<#-- *--------------------------------------------------
-YADDA:
-
-- Yadda
-- Yadda
---------------------------------------------------* -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
