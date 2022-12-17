@@ -1,3 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Span Display None" description=""><insertText location="beforeSelection"><![CDATA[<span style="display: none;">
-
-</span>]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

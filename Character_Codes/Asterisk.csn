@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Asterisk" description=""><insertText location="beforeSelection"><![CDATA[&#42;]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

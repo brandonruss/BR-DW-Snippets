@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Main HL and SHL - CSS" description="" type="wrap"><insertText location="beforeSelection"><![CDATA[<style type="text/css">
+/* on : main headline and subheadline */
+@media (max-width: 530px) {
+	.main-hl-container { padding: 35px 20px 35px 20px !important; }
+}
+@media (max-width: 400px) {
+	.main-hl-container { padding: 30px 20px 30px 20px !important; }
+	.main-hl { font-size: 24px !important; line-height: 26px !important; }
+	.sub-hl { font-size: 20px !important; line-height: 22px !important; }
+}
+@media (max-width: 360px) {
+	.main-hl { font-size: 20px !important; line-height: 22px !important; }
+	.sub-hl { font-size: 16px !important; line-height: 18px !important; }
+}
+/* off : main headline and subheadline */
+</style>]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

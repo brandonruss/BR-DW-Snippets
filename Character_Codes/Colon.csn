@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Colon" description=""><insertText location="beforeSelection"><![CDATA[&#58;]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

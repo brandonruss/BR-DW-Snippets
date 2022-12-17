@@ -1,1 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="TD Padding Bottom" description="" type="wrap"><insertText location="beforeSelection"><![CDATA[<td style="padding: 0 0 20px 0;">]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

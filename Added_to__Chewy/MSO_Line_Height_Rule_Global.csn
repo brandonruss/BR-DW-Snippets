@@ -1,1 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="MSO Line Height Rule Global" description=""><insertText location="beforeSelection"><![CDATA[table, td { mso-line-height-rule: exactly; } /* fix line height - outlook 2007, 2010, 2013 */]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>

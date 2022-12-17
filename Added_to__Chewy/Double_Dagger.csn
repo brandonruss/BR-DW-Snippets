@@ -1,1 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Double Dagger" description=""><insertText location="beforeSelection"><![CDATA[&Dagger;]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
