@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>BR Email Framework</title>
+<title>Title_Goes_Here</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="x-apple-disable-message-reformatting" />
 
@@ -15,13 +15,73 @@
 </xml>
 <![endif]-->
 
-<!-- 10-25-2022 -->
-<!-- fonts : method one (media attribute fixes fallback font - outlook desktop) -->
-<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap" rel="stylesheet" media="screen">
+<!-- fonts : method two (using @font-face in HTML file) -->
+<style type="text/css">
+/* dancing script
+************************************************** */
+@font-face {
+	font-family: 'Dancing Script';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	mso-font-alt: 'Arial'; /* fixes fallback font - outlook desktop */
+}
+@font-face {
+	font-family: 'Dancing Script';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2RXTr6YS-zF4S-kcSWSVi_szLgiuEHiC4W.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	mso-font-alt: 'Arial'; /* fixes fallback font - outlook desktop */
+}
+/* maven pro
+************************************************** */
+@font-face {
+	font-family: 'Maven Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/mavenpro/v32/7Au9p_AqnyWWAxW2Wk3GzWQIElsO0w.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	mso-font-alt: 'Arial'; /* fixes fallback font - outlook desktop */
+}
+@font-face {
+	font-family: 'Maven Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/mavenpro/v32/7Au9p_AqnyWWAxW2Wk3GzWQIElsO0w.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	mso-font-alt: 'Arial'; /* fixes fallback font - outlook desktop */
+}
+/* noto serif
+************************************************** */
+@font-face {
+	font-family: 'Noto Serif';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/notoserif/v21/ga6Iaw1J5X9T9RW6j9bNfFcWaDq8fMU.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	mso-font-alt: 'Arial'; /* fixes fallback font - outlook desktop */
+}
+@font-face {
+	font-family: 'Noto Serif';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/notoserif/v21/ga6Law1J5X9T9RW6j9bNdOwzfReece9LOoc.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	mso-font-alt: 'Arial'; /* fixes fallback font - outlook desktop */
+}
+</style>
 
 <style type="text/css">
 /* on : global */
-body { background-color: #ffffff; font-family: Arial, Helvetica, sans-serif; /*image-rendering: -webkit-optimize-contrast;*/ margin: 0 auto !important; min-width: 100% !important; padding: 0 !important; width: 100% !important; }
+body { background-color: #ffffff; font-family: Arial, Helvetica, sans-serif; margin: 0 auto !important; min-width: 100% !important; padding: 0 !important; width: 100% !important; }
 a, div, li, p, td { -webkit-text-size-adjust: 100%; } /* override minimum font size - ios */
 .blend-links, .blend-links a { color: inherit; } /* override link colors */
 .blend-no-links, .blend-no-links a { color: inherit; text-decoration: none; } /* override link appearance */
@@ -62,7 +122,6 @@ on : scaffolding
 .columns-two-480 { width: 50% !important; }
 .hide-mobile-480 { display: none !important; max-height: 0 !important; max-width: 0 !important; overflow: hidden !important; }
 .inline-to-block-480 { display: block !important; }
-/*#MessageViewBody .main-container { width: 100vw !important; }*/ /* make samsung mail 100% width */
 .show-mobile-480 { display: block !important; max-height: none !important; max-width: none !important; overflow: visible !important; }
 }
 /* --------------------------------------------------
@@ -75,23 +134,6 @@ off : scaffolding
 .stack-add-pad-top-right-left { padding: 20px 20px 0 20px !important; }
 }
 /* off : stacking elements */
-</style>
-
-<style type="text/css">
-/* on : main headline and subheadline */
-@media (max-width: 530px) {
-	.main-hl-container { padding: 35px 20px 35px 20px !important; }
-}
-@media (max-width: 400px) {
-	.main-hl-container { padding: 30px 20px 30px 20px !important; }
-	.main-hl { font-size: 24px !important; line-height: 26px !important; }
-	.sub-hl { font-size: 20px !important; line-height: 22px !important; }
-}
-@media (max-width: 360px) {
-	.main-hl { font-size: 20px !important; line-height: 22px !important; }
-	.sub-hl { font-size: 16px !important; line-height: 18px !important; }
-}
-/* off : main headline and subheadline */
 </style>
 </head>
 
@@ -117,9 +159,7 @@ Preheader_Text_Goes_Here
 		<table role="presentation" align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" width="600" class="columns-one" style="width: 600px;">
 		<tr>
 			<td style="color: #ffffff; font-family: 'Maven Pro', Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 700; line-height: 32px; padding: 20px 20px 20px 20px;">
-
 			Header
-
 			</td>
 		</tr>
 		</table>
