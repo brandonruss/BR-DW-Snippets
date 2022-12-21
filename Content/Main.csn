@@ -108,7 +108,7 @@ on : scaffolding
 .auto-height { height: auto !important; }
 .center { text-align: center !important; }
 .center-block { margin: 0 auto !important; }
-.columns-one { width: 100% !important; }
+.columns-main, .columns-one { width: 100% !important; }
 .columns-two { width: 50% !important; }
 .hide-mobile { display: none !important; max-height: 0 !important; max-width: 0 !important; overflow: hidden !important; }
 .image-auto-width { height: auto !important; width: 100% !important; }
@@ -138,6 +138,7 @@ color-scheme: light dark;
 supported-color-schemes: light dark;
 }
 @media (prefers-color-scheme: dark) {
+.columns-main { background-color: #000000 !important; }
 .hide-light { display: none !important; max-height: 0 !important; max-width: 0 !important; overflow: hidden !important; }
 .show-dark { display: block !important; max-height: none !important; max-width: none !important; overflow: visible !important; }
 }
