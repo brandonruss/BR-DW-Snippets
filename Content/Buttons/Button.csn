@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><snippet name="Button" description="" type="wrap"><insertText location="beforeSelection"><![CDATA[<!-- on nest : button container -->
+<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+	<td align="center" style="padding: 25px 20px 25px 20px;">
+
+	<!-- on nest : button -->
+	<table role="presentation" align="center" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" width="320" class="button" style="border-radius: 4px; width: 320px;">
+	<tr>
+		<td align="center" height="55" style="font-family: Arial, Helvetica, sans-serif; font-size: 19px; line-height: 19px;"><a href="#" style="color: #ffffff; cursor: pointer; display: block; padding: 18px 20px 18px 20px; text-decoration: none;"><strong style="color: #ffffff;">Yadda&nbsp;Yadda&nbsp;Yadda</strong></a></td>
+	</tr>
+	</table>
+	<!-- on nest : button -->
+
+	</td>
+</tr>
+</table>
+<!-- off nest : header -->]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
