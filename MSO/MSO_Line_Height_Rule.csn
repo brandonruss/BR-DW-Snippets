@@ -1,1 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><snippet name="MSO Line Height Rule" description="" preview="code" type="block"><insertText location="beforeSelection"><![CDATA[line-height: 13px; mso-line-height-rule: exactly;]]></insertText><insertText location="afterSelection"><![CDATA[]]></insertText></snippet>
